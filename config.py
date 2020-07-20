@@ -5,7 +5,7 @@ class Config:
     SECRET_KEY = "SJIRNUFUCN*DHUDNCN13"
 
     # 数据库配置
-    SQLALEHEMY_DATABASE_URL = "mysql://root:123456@127.0.0.1:3306/db_ihome"
+    SQLALCHEMY_DATABASE_URI = "mysql://root:123456@127.0.0.1:3306/db_ihome"
     SQLALCHEMY_TRACK_MODIFICATIONS = True
 
     # REDIS配置
